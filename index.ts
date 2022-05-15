@@ -4,8 +4,8 @@ import { downloadFileAsync } from "./processor/downLoadFile";
 import { imageSearch } from "./processor/imageSrc";
 load();
 const output = extract(
-	"今天纽约的天气真好啊，京华大酒店的张尧经理吃了一只北京烤鸭。后天纽约的天气不好，昨天纽约的天气也不好，北京烤鸭真好吃",
-	5
+	"1. 昨天晚上年会，其中有一个互动环节，就是女同事在台上比划，男同事背对着屏幕猜。一女同事指了指自己的脸，逗逼男同事：“雀斑！”女同事摇了摇头，逗逼男同事：“痘痘！”女同事又摇了摇头，逗逼男同事：“麻子！”女同事还是摇了摇头，逗逼男同事：“肥肉！”主持人是在看不下去了，提示道：“一个字！”逗逼男同事笑道：“我知道了，是丑字。”男同事刚说完，女同事一阵流星拳打了上来，怒道：“说一个脸字要死麽！",
+	7
 );
 function process(key) {
 	const p = new Pipeline(
