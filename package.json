@@ -1,0 +1,20 @@
+{
+  "name": "buzz-video-maker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ENV_BVM=dev esno index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@node-rs/jieba": "^1.6.0",
+    "axios": "^0.27.2",
+    "i": "^0.3.7",
+    "node-fetch": "^3.2.4",
+    "puppeteer": "^14.1.0"
+  }
+}
